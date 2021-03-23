@@ -1,213 +1,515 @@
 <!DOCTYPE html>
-<html lang="en">
+<!-- ==============================
+    Project:        Metronic "Aircv" Frontend Freebie - Responsive HTML Template Based On Twitter Bootstrap 3.3.4
+    Version:        1.0
+    Author:         KeenThemes
+    Primary use:    Corporate, Business Themes.
+    Email:          support@keenthemes.com
+    Follow:         http://www.twitter.com/keenthemes
+    Like:           http://www.facebook.com/keenthemes
+    Website:        http://www.keenthemes.com
+    Premium:        Premium Metronic Admin Theme: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
+================================== -->
+<html lang="en" class="no-js">
+    <!-- BEGIN HEAD -->
+    <head>
+        <meta charset="utf-8"/>
+        <title>ZinhIT - Ciute</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <meta content="" name="description"/>
+        <meta content="" name="author"/>
 
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>ZinhIT - Deverloopment</title>
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-    <!-- Font Awesome icons (free version)-->
-    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
-    <!-- Google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet" />
-</head>
+        <!-- GLOBAL MANDATORY STYLES -->
+        <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
+        <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css"/>
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
 
-<body id="page-top">
-    <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">
-            <span class="d-block d-lg-none">Clarence Taylor</span>
-            <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="" /></span>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Tổng Quan</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Kinh Nghiệm</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">TRÌNH ĐỘ HỌC VẤN</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">KỸ NĂNG</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
-                <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">CHỨNG CHỈ</a></li> -->
-            </ul>
+        <!-- PAGE LEVEL PLUGIN STYLES -->
+        <link href="css/animate.css" rel="stylesheet">
+
+        <!-- THEME STYLES -->
+        <link href="css/layout.min.css" rel="stylesheet" type="text/css"/>
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="favicon.ico"/>
+    </head>
+    <!-- END HEAD -->
+
+    <!-- BODY -->
+    <body id="body" data-spy="scroll" data-target=".header">
+
+        <!--========== HEADER ==========-->
+        <header class="header navbar-fixed-top">
+            <!-- Navbar -->
+            <nav class="navbar" role="navigation">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="menu-container js_nav-item">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="toggle-icon"></span>
+                        </button>
+
+                        <!-- Logo -->
+                        <div class="logo">
+                            <a class="logo-wrap" href="#body">
+                                <img class="logo-img logo-img-main" src="img/logo.png" alt="Asentus Logo">
+                                <img class="logo-img logo-img-active" src="img/logo-dark.png" alt="Asentus Logo">
+                            </a>
+                        </div>
+                        <!-- End Logo -->
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse nav-collapse">
+                        <div class="menu-container">
+                            <ul class="nav navbar-nav navbar-nav-right">
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#body">Home</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#about">About</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#experience">Experience</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#work">Work</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End Navbar Collapse -->
+                </div>
+            </nav>
+            <!-- Navbar -->
+        </header>
+        <!--========== END HEADER ==========-->
+
+        <!--========== SLIDER ==========-->
+        <div class="promo-block parallax-window" data-parallax="scroll" data-image-src="img/1920x1080/01.jpg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="promo-block-divider">
+                            <h1 class="promo-block-title">Đoàn <br/> Hữu Vinh</h1>
+                            <p class="promo-block-text">Web Designer &amp; FE Developer </p>
+                        </div>
+                        <ul class="list-inline">
+                            <li><a href="https://www.facebook.com/zinhdocthan" class="social-icons"><i class="icon-social-facebook"></i></a></li>
+                            <li><a href="https://www.facebook.com/zinhdocthan" class="social-icons"><i class="icon-social-twitter"></i></a></li>
+                            <li><a href="https://www.facebook.com/zinhdocthan" class="social-icons"><i class="icon-social-dribbble"></i></a></li>
+                            <li><a href="https://www.facebook.com/zinhdocthan" class="social-icons"><i class="icon-social-behance"></i></a></li>
+                            <li><a href="https://www.facebook.com/zinhdocthan" class="social-icons"><i class="icon-social-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--// end row -->
+            </div>
         </div>
-    </nav>
-    <!-- Page Content-->
-    <div class="container-fluid p-0">
-        <!-- About-->
-        <section class="resume-section" id="about">
-            <div class="resume-section-content">
-                <h1 class="mb-0">
-                    Đoàn Hữu
-                    <span class="text-primary">Vinh</span>
-                </h1>
-                <div class="subheading mb-5">
-                    53 Bạch Đằng, phường 15, Quận Bình Thạnh, TPHCM ·
-                    <a href="mailto:huuvinhit98@email.com">Huuvinhit98@email.com</a>
-                </div>
-                <p class="lead mb-5">- Đam mê ngành từ lúc còn là học sinh.
-                    <Br> - Là một người điềm tĩnh, thích ứng nhanh với môi trường mời, không ngại khó khăn, hứng thú trong việc tìm ra hướng giải quyết cho vấn đề..</p>
-                <div class="social-icons">
-                    <a class="social-icon" href="https://www.facebook.com/zinhdocthan/"><i class="fab fa-facebook-f"></i></a>
-                    <a class="social-icon" href="https://www.instagram.com/zinh.it_in.ifan/"><i class="fab fa-instagram"></i></a>
-                    <a class="social-icon" href="https://www.youtube.com/channel/UCo_DVKM5YR-pYIw5sbmjLEw"><i class="fab fa-youtube"></i></a>
-                    <!-- <a class="social-icon" href="#"><i class="fab fa-twitter"></i></a> -->
-                </div>
-            </div>
-        </section>
-        <hr class="m-0" />
-        <!-- Experience-->
-        <section class="resume-section" id="experience">
-            <div class="resume-section-content">
-                <h2 class="mb-5">KINH NGIỆM</h2>
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">Công ty TNHH TM - DV Âu Việt Phát</h3>
-                        <div class="subheading mb-3">Thục Tập Sinh Nhân viên Kĩ Thuật</div>
-                        <p>- Tiếp nhận và xử lý yêu cầu liên quan tới các dịch vụ của Phòng CNTT từ người dùng..
-                            <br> - Hỗ trợ khách hàng sự cố máy tính từ xa.
-                            <br>- Khắc phục sự cố tại máy trạm (LAN, WIFI, Phần cứng, Phần mềm, Máy in, Điện thoại IP…), hoặc từ xa qua điện thoại, các phần mềm điều khiển.
-                            <br>- Cài đặt và cấp phát thiết bị Công Nghệ Thông Tin.
-                            <br>- Tư vấn về cấu hình và các thiết bị tin học.
-                            <br>- Quản lý thiết bị Công Nghệ Thông Tin.</p>
-                    </div>
-                    <div class="flex-shrink-0"><span class="text-primary">7/2020 - 10/2020</span></div>
-                </div>
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">CÔNG TY TNHH TƯ VẤN & ĐẦU TƯ SOMNIUM</h3>
-                        <div class="subheading mb-3">iT SUPPORT</div>
-                        <p>- Tiếp nhận và xử lý yêu cầu liên quan tới các dịch vụ của Phòng CNTT từ người dùng..
-                            <br> - Giám sát hệ thống bán hàng online thông qua app và website.
-                            <br> - Quản lí lưu trữ thiết bị.
-                            <br> - Cùng cấp trên khắc phục hệ thống khi lỗi.</p>
-                    </div>
-                    <div class="flex-shrink-0"><span class="text-primary">10/2020 - 1/2021</span></div>
-                </div>
+        <!--========== SLIDER ==========-->
 
-            </div>
-        </section>
-        <hr class="m-0" />
-        <!-- Education-->
-        <section class="resume-section" id="education">
-            <div class="resume-section-content">
-                <h2 class="mb-5">TRÌNH ĐỘ HỌC VẤN</h2>
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">HUTECH University </h3>
-                        <div class="subheading mb-3">Cử nhân Công Nghệ Thông Tin </div>
-                        <!-- <div>Computer Science - Web Development Track</div> -->
-                        <p>- Bằng tốt nghiệp: Loại Khá
-                            <br>- Điểm tích luỹ: 2.5.
-                            <br>- Hệ chính quy</p>
+        <!--========== PAGE LAYOUT ==========-->
+        <!-- About -->
+        <div id="about">
+            <div class="container content-lg">
+                <div class="row">
+                    <div class="col-sm-3 sm-margin-b-30">
+                        <div class="text-right sm-text-left">
+                            <h2 class="margin-b-0">Hi Guys nè !</h2>
+                            <p>Bạn hiểu gì về tôi.</p>
+                        </div>
                     </div>
-                    <div class="flex-shrink-0"><span class="text-primary">9/2016 - 12/2020</span></div>
-                </div>
-                <!--  class="d-flex flex-column flex-md-row justify-content-between">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">James Buchanan High School</h3>
-                        <div class="subheading mb-3">Technology Magnet Program</div>
-                        <p>GPA: 3.56</p>
-                    </div>
-                    <div class="flex-shrink-0"><span class="text-primary">August 2002 - May 2006</span></div>
-                </!-->-->
-            </div>
-        </section>
-        <hr class="m-0" />
-        <!-- Skills-->
-        <section class="resume-section" id="skills">
-            <div class="resume-section-content">
-                <h2 class="mb-5">Kỹ Năng</h2>
-                <div class="subheading mb-3">Ngôn Ngữ Lập Trình & Ứng Dụng</div>
-                <ul class="list-inline dev-icons">
-                    <li class="list-inline-item"><i class="fab fa-html5"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-angular"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-react"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-sass"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-less"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-gulp"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-grunt"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-npm"></i></li>
-                </ul>
-                <div class="subheading mb-3">Workflow</div>
-                <ul class="fa-ul mb-0">
-                    <li>
-                        <span class="fa-li"><i class="fas fa-check"></i></span> Mobile-First, Responsive Design
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-check"></i></span> Cross Browser Testing & Debugging
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-check"></i></span> Cross Functional Teams
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-check"></i></span> Agile Development & Scrum
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <hr class="m-0" />
-        <!-- Interests-->
-        <section class="resume-section" id="interests">
-            <div class="resume-section-content">
-                <h2 class="mb-5">Interests</h2>
-                <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-                <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development
-                    world.
-                </p>
-            </div>
-        </section>
-        <hr class="m-0" />
-        <!-- Awards
-        <section class="resume-section" id="awards">
-            <div class="resume-section-content">
-                <h2 class="mb-5">Awards & Certifications</h2>
-                <ul class="fa-ul mb-0">
-                    <li>
-                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span> Google Analytics Certified Developer
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span> Mobile Web Specialist - Google Certification
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span> 1
-                        <sup>st</sup> Place - University of Colorado Boulder - Emerging Tech Competition 2009
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span> 1
-                        <sup>st</sup> Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span> 2
-                        <sup>nd</sup> Place - University of Colorado Boulder - Emerging Tech Competition 2008
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span> 1
-                        <sup>st</sup> Place - James Buchanan High School - Hackathon 2006
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span> 3
-                        <sup>rd</sup> Place - James Buchanan High School - Hackathon 2005
-                    </li>
-                </ul>
-            </div>
-        </section> -->
-    </div>
-    <!-- Bootstrap core JS-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
-    <!-- Third party plugin JS-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-    <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
-</body>
+                    <div class="col-sm-8 col-sm-offset-1">
+                        <div class="margin-b-60">
+                            <p>- Là một người điềm tĩnh, thích ứng nhanh với môi trường mời, không ngại khó khăn, hứng thú trong việc tìm ra hướng giải quyết cho vấn đề..</p>
+                            <!-- <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> -->
+                        </div>
 
+                        <!-- Progress Box -->
+                        <div class="progress-box">
+                            <h5>Adobe Premier <span class="color-heading pull-right">80%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="progress-box">
+                            <h5>Adobe Photoshop CC <span class="color-heading pull-right">80%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="progress-box">
+                            <h5>Adobe Affter effect <span class="color-heading pull-right">60%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="60"></div>
+                            </div>
+                        </div>
+                        <div class="progress-box">
+                            <h5>Adobe Lightrooom <span class="color-heading pull-right">77%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="77"></div>
+                            </div>
+                        </div>
+                        <!-- End Progress Box -->
+                    </div>
+                </div>
+                <!--// end row -->
+            </div>
+        </div>
+        <!-- End About -->
+
+        <!-- Experience -->
+        <div id="experience">
+            <div class="bg-color-sky-light" data-auto-height="true">
+                <div class="container content-lg">
+                    <div class="row">
+                        <div class="col-sm-3 sm-margin-b-30">
+                            <div class="text-right sm-text-left">
+                                <h2 class="margin-b-0">Kinh nghiệm nè !</h2>
+                                <p>Batman would be jealous.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-8 col-sm-offset-1">
+                            <div class="row row-space-2 margin-b-4">
+                                <div class="col-md-4 md-margin-b-4">
+                                    <div class="service" data-height="height">
+                                        <div class="service-element">
+                                            <i class="service-icon icon-chemistry"></i>
+                                        </div>
+                                        <div class="service-info">
+                                            <h3>HTML5/CSS3</h3>
+                                            <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
+                                        </div>
+                                        <a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes" class="content-wrapper-link"></a>    
+                                    </div>
+                                </div>
+                                <div class="col-md-4 md-margin-b-4">
+                                    <div class="service bg-color-base wow zoomIn" data-height="height" data-wow-duration=".3" data-wow-delay=".1s">
+                                        <div class="service-element">
+                                            <i class="service-icon color-white icon-screen-tablet"></i>
+                                        </div>
+                                        <div class="service-info">
+                                            <h3 class="color-white">Photoshop</h3>
+                                            <p class="color-white margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
+                                        </div>
+                                        <a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes" class="content-wrapper-link"></a>    
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="service" data-height="height">
+                                        <div class="service-element">
+                                            <i class="service-icon icon-badge"></i>
+                                        </div>
+                                        <div class="service-info">
+                                            <h3>Front-end</h3>
+                                            <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
+                                        </div>
+                                        <a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes" class="content-wrapper-link"></a>    
+                                    </div>
+                                </div>
+                            </div>
+                            <!--// end row -->
+                        </div>
+                    </div>
+                    <!--// end row -->
+                </div>
+            </div>
+        </div>
+        <!-- End Experience -->
+
+        <!-- Work -->
+        <div id="work">
+            <div class="container content-lg">
+                <div class="row">
+                    <div class="col-sm-3 sm-margin-b-30">
+                        <div class="text-right sm-text-left">
+                            <h2 class="margin-b-0">Nơi làm việc nè</h2>
+                            <p>Làm nhiều quá sao nhớ hết nè !.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 col-sm-offset-1">
+                        <!-- Masonry Grid -->
+                        <div class="masonry-grid row row-space-2">
+                            <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>
+                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-8 margin-b-4">
+                                <!-- Work -->
+                                <div class="work work-popup-trigger">
+                                    <div class="work-overlay">
+                                        <img class="full-width img-responsive" src="img/800x400/01.jpg" alt="Portfolio Image">
+                                    </div>
+                                    <div class="work-popup-overlay">
+                                        <div class="work-popup-content">
+                                            <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                            <div class="margin-b-30">
+                                                <h3 class="margin-b-5">Art Of Coding</h3>
+                                                <span>Clean &amp; Minimalistic Design</span>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                                                    <div class="margin-t-10 sm-margin-t-0">
+                                                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                                                        <ul class="list-inline work-popup-tag">
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="http://keenthemes.com/">Design,</a></li>
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="http://keenthemes.com/">Coding,</a></li>
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="http://keenthemes.com/">Portfolio</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <div class="margin-t-10 sm-margin-t-0">
+                                                        <p class="margin-b-5"><strong>Project Leader:</strong> John Doe</p>
+                                                        <p class="margin-b-5"><strong>Designer:</strong> Alisa Keys</p>
+                                                        <p class="margin-b-5"><strong>Developer:</strong> Mark Doe</p>
+                                                        <p class="margin-b-5"><strong>Customer:</strong> Keenthemes</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Work -->
+                            </div>
+                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-4">
+                                <!-- Work -->
+                                <div class="work work-popup-trigger">
+                                    <div class="work-overlay">
+                                        <img class="full-width img-responsive" src="img/397x400/01.jpg" alt="Portfolio Image">
+                                    </div>
+                                    <div class="work-popup-overlay">
+                                        <div class="work-popup-content">
+                                            <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                            <div class="margin-b-30">
+                                                <h3 class="margin-b-5">Art Of Coding</h3>
+                                                <span>Clean &amp; Minimalistic Design</span>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                                                    <div class="margin-t-10 sm-margin-t-0">
+                                                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                                                        <ul class="list-inline work-popup-tag">
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="http://keenthemes.com/">Design,</a></li>
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="http://keenthemes.com/">Coding,</a></li>
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="http://keenthemes.com/">Portfolio</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <div class="margin-t-10 sm-margin-t-0">
+                                                        <p class="margin-b-5"><strong>Project Leader:</strong> John Doe</p>
+                                                        <p class="margin-b-5"><strong>Designer:</strong> Alisa Keys</p>
+                                                        <p class="margin-b-5"><strong>Developer:</strong> Mark Doe</p>
+                                                        <p class="margin-b-5"><strong>Customer:</strong> Keenthemes</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Work -->
+                            </div>
+                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4">
+                                <!-- Work -->
+                                <div class="work work-popup-trigger">
+                                    <div class="work-overlay">
+                                        <img class="full-width img-responsive" src="img/397x300/01.jpg" alt="Portfolio Image">
+                                    </div>
+                                    <div class="work-popup-overlay">
+                                        <div class="work-popup-content">
+                                            <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                            <div class="margin-b-30">
+                                                <h3 class="margin-b-5">Art Of Coding</h3>
+                                                <span>Clean &amp; Minimalistic Design</span>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                                                    <div class="margin-t-10 sm-margin-t-0">
+                                                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                                                        <ul class="list-inline work-popup-tag">
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="http://keenthemes.com/">Design,</a></li>
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="http://keenthemes.com/">Coding,</a></li>
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="http://keenthemes.com/">Portfolio</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <div class="margin-t-10 sm-margin-t-0">
+                                                        <p class="margin-b-5"><strong>Project Leader:</strong> John Doe</p>
+                                                        <p class="margin-b-5"><strong>Designer:</strong> Alisa Keys</p>
+                                                        <p class="margin-b-5"><strong>Developer:</strong> Mark Doe</p>
+                                                        <p class="margin-b-5"><strong>Customer:</strong> Keenthemes</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Work -->
+                            </div>
+                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4">
+                                <!-- Work -->
+                                <div class="work work-popup-trigger">
+                                    <div class="work-overlay">
+                                        <img class="full-width img-responsive" src="img/397x300/02.jpg" alt="Portfolio Image">
+                                    </div>
+                                    <div class="work-popup-overlay">
+                                        <div class="work-popup-content">
+                                            <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                            <div class="margin-b-30">
+                                                <h3 class="margin-b-5">Art Of Coding</h3>
+                                                <span>Clean &amp; Minimalistic Design</span>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                                                    <div class="margin-t-10 sm-margin-t-0">
+                                                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                                                        <ul class="list-inline work-popup-tag">
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="http://keenthemes.com/">Design,</a></li>
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="http://keenthemes.com/">Coding,</a></li>
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="http://keenthemes.com/">Portfolio</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <div class="margin-t-10 sm-margin-t-0">
+                                                        <p class="margin-b-5"><strong>Project Leader:</strong> John Doe</p>
+                                                        <p class="margin-b-5"><strong>Designer:</strong> Alisa Keys</p>
+                                                        <p class="margin-b-5"><strong>Developer:</strong> Mark Doe</p>
+                                                        <p class="margin-b-5"><strong>Customer:</strong> Keenthemes</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Work -->
+                            </div>
+                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4">
+                                <!-- Work -->
+                                <div class="work work-popup-trigger">
+                                    <div class="work-overlay">
+                                        <img class="full-width img-responsive" src="img/397x300/03.jpg" alt="Portfolio Image">
+                                    </div>
+                                    <div class="work-popup-overlay">
+                                        <div class="work-popup-content">
+                                            <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                            <div class="margin-b-30">
+                                                <h3 class="margin-b-5">Art Of Coding</h3>
+                                                <span>Clean &amp; Minimalistic Design</span>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                                                    <div class="margin-t-10 sm-margin-t-0">
+                                                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                                                        <ul class="list-inline work-popup-tag">
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="http://keenthemes.com/">Design,</a></li>
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="http://keenthemes.com/">Coding,</a></li>
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="http://keenthemes.com/">Portfolio</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <div class="margin-t-10 sm-margin-t-0">
+                                                        <p class="margin-b-5"><strong>Project Leader:</strong> John Doe</p>
+                                                        <p class="margin-b-5"><strong>Designer:</strong> Alisa Keys</p>
+                                                        <p class="margin-b-5"><strong>Developer:</strong> Mark Doe</p>
+                                                        <p class="margin-b-5"><strong>Customer:</strong> Keenthemes</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Work -->
+                            </div>
+                        </div>
+                        <!-- End Masonry Grid -->
+                    </div>
+                </div>
+                <!--// end row -->
+            </div>
+        </div>
+        <!-- End Work -->
+            
+        <!-- Contact -->
+        <div id="contact">
+            <div class="bg-color-sky-light">
+                <div class="container content-lg">
+                    <div class="row">
+                        <div class="col-sm-3 sm-margin-b-30">
+                            <div class="text-right sm-text-left">
+                                <h2 class="margin-b-0">Liên hệ nè !</h2>
+                                <p>Nhìn đây nè !.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-8 col-sm-offset-1">
+                            <div class="row">
+                                <div class="col-md-3 col-xs-6 md-margin-b-30">
+                                    <h5>Location</h5>
+                                    <a href="https://goo.gl/maps/QoypQuDDQqy2CpC19">53 Bạch Đằng, Phường 15, Quận Bình Thạnh, TPHCM</a>
+                                </div>
+                                <div class="col-md-3 col-xs-6 md-margin-b-30">
+                                    <h5>Phone</h5>
+                                    <a href="tell:0986416678">+84 986 416 xxx</a>
+                                </div>
+                                <div class="col-md-3 col-xs-6">
+                                    <h5>Email</h5>
+                                    <a href="mailto:#">huuvinhit98@gmail.com</a>
+                                </div>
+                                <div class="col-md-3 col-xs-6">
+                                    <h5>Website</h5>
+                                    <a href="#">huuvinhdocthan</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--// end row -->
+                </div>
+            </div>
+        </div>
+        <!-- End Contact -->
+        <!--========== END PAGE LAYOUT ==========-->
+
+        <!--========== FOOTER ==========-->
+        <footer class="footer">
+            <div class="content container">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <img class="footer-logo" src="img/logo-dark.png" alt="Aircv Logo">
+                    </div>
+                    <div class="col-xs-6 text-right sm-text-left">
+                        <p class="margin-b-0"><a class="fweight-700" href="https://www.facebook.com/zinhdocthan/">ZinhCv</a> Creat by me : <a class="fweight-700" href="https://www.facebook.com/zinhdocthan/">huuvinhdocthan</a></p>
+                    </div>
+                </div>
+                <!--// end row -->
+            </div>
+        </footer>
+        <!--========== END FOOTER ==========-->
+
+        <!-- Back To Top -->
+        <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
+
+        <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+        <!-- CORE PLUGINS -->
+        <script src="vendor/jquery.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
+        <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+        <!-- PAGE LEVEL PLUGINS -->
+        <script src="vendor/jquery.easing.js" type="text/javascript"></script>
+        <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
+        <script src="vendor/jquery.smooth-scroll.js" type="text/javascript"></script>
+        <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery.parallax.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery.appear.js" type="text/javascript"></script>
+        <script src="vendor/masonry/jquery.masonry.pkgd.min.js" type="text/javascript"></script>
+        <script src="vendor/masonry/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+
+        <!-- PAGE LEVEL SCRIPTS -->
+        <script src="js/layout.min.js" type="text/javascript"></script>
+        <script src="js/components/progress-bar.min.js" type="text/javascript"></script>
+        <script src="js/components/masonry.min.js" type="text/javascript"></script>
+        <script src="js/components/wow.min.js" type="text/javascript"></script>
+
+    </body>
+    <!-- END BODY -->
 </html>
